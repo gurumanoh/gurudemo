@@ -9,6 +9,9 @@ public class FirstController {
 	
 	@GetMapping("welcome")
 	public String welcomeGreeting(@RequestParam("name") String name){
+
 		return "Welcome to world2"+name+"!!";
+
+
 	}
 }
